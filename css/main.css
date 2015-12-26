@@ -84,6 +84,11 @@ textarea.focus {
     float: left;
 }
 
+.logo {
+    vertical-align: middle;
+    height: 20px;
+}
+
 .book-title {
     font-style: italic;
 }
