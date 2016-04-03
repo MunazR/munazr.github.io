@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto Condensed';
-    margin: 0;
-    padding-bottom: 30px;
+    margin: auto;
+    max-width: 1000px;
 }
 
 h2 {
@@ -23,6 +23,7 @@ a {
 }
 
 #about,
+#resume,
 #projects,
 #contact {
     padding: 0px 20px;
@@ -34,6 +35,8 @@ a {
 #submit {
     width: 100%;
     margin-bottom: 10px;
+    padding: 10px 0 10px 0;
+    text-indent: 5px;
 }
 
 #submit {
@@ -41,22 +44,27 @@ a {
 }
 
 #footer {
-    position: absolute;
     background-color: #6A5ACD;
-    padding: 10px 0;
+    height: 30px;
+    padding: 10px 0 5px 0;
     margin-top: 10px;
     color: #FFFFFF;
     width: 100%;
 }
 
-#footer span {
-    margin: auto;
-    float: right;
-    margin-right: 20px;
-}
-
 #footer a {
     color: #FFFFFF;
+}
+
+#footer-contact {
+    text-align: right;
+    margin-right: 20px;
+    float: right;
+}
+
+#footer-copyright {
+    margin-left: 20px;
+    float: left;
 }
 
 input[type="text"],
@@ -82,6 +90,7 @@ textarea.focus {
     border: 5px solid #000000;
     margin-right: 10px;
     float: left;
+    width: 200px;
 }
 
 .logo {
@@ -93,22 +102,18 @@ textarea.focus {
     font-style: italic;
 }
 
-.project:nth-child(odd) h3 {
+.project {
+    margin-bottom: 10px;
+    min-height: 125px;
+}
+
+.project h3 {
     text-align: left;
 }
 
-.project:nth-child(even) h3 {
-    text-align: right;
-}
-
-.project:nth-child(odd) img {
+.project img {
     float: left;
     margin-right: 10px;
-}
-
-.project:nth-child(even) img {
-    float: right;
-    margin-left: 10px;
 }
 
 .thin {
