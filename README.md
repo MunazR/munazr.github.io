@@ -1,2 +1,2 @@
 # Personal-Website
-My personal website. View it [here](http://munaz.me/).
+My personal website. View it [here](http://munazrahman.com/).
