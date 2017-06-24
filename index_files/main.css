@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -23,8 +23,7 @@ body {
   width: 250px;
   height: 250px;
   align-self: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .link {
