@@ -1,6 +1,12 @@
+html {
+  height: 100%;
+}
+
 body {
   background: #F9F9F9;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
+  display: flex;
 }
 
 .heading {
