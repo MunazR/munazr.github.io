@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #F9F9F9;
+  background: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   min-height: 100%;
   display: flex;
@@ -24,10 +24,9 @@ body {
 }
 
 .profile-image {
-  border-radius: 125px;
-  border: 3px solid #545454;
-  width: 250px;
-  height: 250px;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
   align-self: center;
   margin-bottom: 15px;
 }
